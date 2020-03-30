@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Drop-down Navigation</title>
+      <link rel="stylesheet" href="style/style.css">
+      <link rel="stylesheet" href="style/productdetail.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i >Mag</i> 
+            </span>Rabbit
+        </h1>
+        <nav id="navbar">
+            <div>
+                  <i class="fa fa-bars"></i>
+            </div>
+            <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Drop 1 <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="#">Product 1</a></li>
+                              <li><a href="#">Product 2</a></li>
+                              <li><a href="#">Product 3</a></li>
+                              <li><a href="#">Product 4</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">Drop 2 <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="#">Product 1</a></li>
+                              <li><a href="#">Product 2</a></li>
+                              <li><a href="#">Product 3</a></li>
+                              <li><a href="#">Product 4</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="detail-content">
+        <div class="left-content">
+            <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/pic1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/pic2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/pic3.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/pic4.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/pic6.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/pic6.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                <img class="demo cursor" src="images/pic1.jpg" style="width:100%" onmouseover="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="images/pic2.jpg" style="width:100%" onmouseover="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="images/pic3.jpg" style="width:100%" onmouseover="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="images/pic4.jpg" style="width:100%" onmouseover="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="images/pic6.jpg" style="width:100%" onmouseover="currentSlide(5)" alt="Nature and sunrise">
+                </div>    
+                <div class="column">
+                <img class="demo cursor" src="images/pic6.jpg" style="width:100%" onmouseover="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="inner_content clearfix">
+                <div class="title-product">
+                    <p class="title">Semi Rimless Polarized Sunglasses for Women Men, Unisex Sunglasses with Half Frame</p>
+                    <p>by <span><a>Amazon's Choice</a></span> </p> 
+                </div>
+                <div >
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#"> 165 comment</span></a>
+                </div>
+                <hr>
+                <div class="price">
+                   <div >
+                        
+                        <div class="price1">
+                          <span class="actual">$12.00</span>
+                        </div>
+                        <div class="price2">
+                            <span class="actual2">$36.00</span>
+                        </div>
+                    </div>
+                    <div class="cart-right">
+                        <ul class="glasses-detail">
+                            <li>metal frame</li>
+                            <li>plastic lens</li>
+                            <li>non-polarized</li>
+                            <li>Lens width: 50 millimeters</li>
+                            <li>Arm: 136 millimeters</li>
+                            <li>PRODUCT DIMENSION – Lens width:50mm (1.97") | Lens height:46mm (1.81") | Bridge width:21mm (0.83") | Arm length:136mm (5.35")</li>
+                            <li>MATERIAL – Made by polycarbonate lens and metal.</li>
+                            
+                        </ul>
+                    </div>
+                 </div>
+                 <div>
+                    <button class="button-card" style="vertical-align:middle"><span>Add to Card </span></button>
+                    <button class="button-card button-bnow" style="vertical-align:middle"><span>Buy Now </span></button>
+                </div>
+               </div>
+        </div>
+        <div class="bottom-product row-p">
+            <div class="e-products">
+                <div class="image-slice column-p ">
+                    <img src="images/pic1.jpg" alt="Smiley face" >
+                    <p class="title">Lorem</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic1.jpg" alt="Smiley face" >
+                    <p class="title">Ipsum</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic1.jpg" alt="Smiley face" >
+                    <p class="title">simply</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic1.jpg" alt="Smiley face" >
+                    <p class="title">simply</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="e-products row-p">
+                <div class="image-slice column-p ">
+                    <img src="images/pic2.jpg" alt="Smiley face" >
+                    <p class="title">Ipsum</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic2.jpg" alt="Smiley face" >
+                    <p class="title">Lorem</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic2.jpg" alt="Smiley face" >
+                    <p class="title">Ipsum</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic2.jpg" alt="Smiley face" >
+                    <p class="title">Lo</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="e-products row-p">
+                <div class="image-slice column-p ">
+                    <img src="images/pic3.jpg" alt="Smiley face" >
+                    <p class="title">ly</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic3.jpg" alt="Smiley face" >
+                    <p class="title">sum</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic3.jpg" alt="Smiley face" >
+                    <p class="title">rem</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+                <div class="image-slice column-p ">
+                    <img src="images/pic3.jpg" alt="Smiley face" >
+                    <p class="title">um</p>
+                    <div class="price1">
+                      <span class="actual">$12.00</span>
+                    </div>
+                    <div class="price2">
+                        <span class="actual2">$36.00</span>
+                    </div>
+                </div>
+            </div>
+            <a class="prev-product" onclick="plusSlidesProduct(-1)">❮</a>
+                <a class="next-product" onclick="plusSlidesProduct(1)">❯</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contact-email">
+            <h3>Company</h3>
+            <p class="company">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo assumenda voluptatibus est 
+                quia saepe enim suscipit eaque, incidunt dolores. Quis nesciunt modi reprehenderit natus tempora .</p>
+        </div>
+        <div class="footer-link">
+            <h3>Contact</h3>
+            <!-- Add font awesome icons -->
+            <a href="#" >Phone:+841 04384 423947</a>
+            <a href="#" >Email: uyennhinguyentruong@gmail.com</a>
+            <a href="#" >Adress: 28 Lý Thường Kiệt, Thừa Thiên Huế</a>
+        </div>
+        <div class="contact-link">
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        </div>
+    </div>
+    <script src="scripts/productlist.js"></script>
+    <script src="scripts/productdetail.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+
+* {
+  box-sizing: border-box;
+}
+.detail-content {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+/*Slice gallery thumbnail------left-content*/
+.detail-content .left-content {
+    width: 50%;
+}
+img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  @media screen and (max-width: 768px) {
+    .detail-content {
+        width: 100%;
+    }
+    .detail-content .left-content {
+        width: 100%;
+        margin-left: 1 rem;
+        margin-right: 1 rem;
+    }
+  }
+
+  /*right-content*/
+  .right-container {
+    width: 50%;
+    background: #fcf0f0;
+    padding-left: 50px;
+    
+
+  }
+  .title {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 0px;
+  }
+  .actual {
+    font-size: 30px;
+    color: orange;
+  }
+  .glasses-detail {
+    
+    padding-left: 0px;
+  }
+  .button-card {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4bb1e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-card span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-card span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-card:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-card:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button-bnow {
+    background: red;
+  }
+  @media screen and (max-width: 768px) {
+    .right-container {
+      width: 100%;
+    }
+  }
+  .bottom-product {
+    position: relative;
+  }
+  /*e-product*/
+  .e-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+    
+  }
+  .image-slice {
+    border: 1px solid rgb(248, 245, 245);
+  }
+  .image-slice img{
+    width: 250px;
+    margin : 10px;
+    padding: 10px;
+  }
+
+  .image-slice:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .prev-product,
+.next-product {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(14, 12, 12);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  border-radius: 50%;
+  background-color: rgb(238, 229, 229);
+}
+
+/* Position the "next button" to the right */
+.next-product {
+  right: 0;
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-product:hover,
+.next-product:hover {
+  background-color: rgba(236, 12, 98, 0.8);
+  border-radius: 50%;
+}
+.row-p:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column-p {
+  float: left;
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) { 
+  .image-slice img{
+    width: 100%;
+  }
+  .prev-product,
+.next-product {
+  
+  top: 70%;
+  width: 10px;
+  padding: 12px;
+  margin-top: -50px;
+  margin-left: 5px;
+  color: rgb(14, 12, 12);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  border-radius: 30%;
+  background-color: rgb(238, 229, 229);
+}
+}

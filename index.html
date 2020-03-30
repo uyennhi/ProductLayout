@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Drop-down Navigation</title>
+      <link rel="stylesheet" href="style/style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i >Mag</i> 
+            </span>Rabbit
+        </h1>
+        <nav id="navbar">
+       
+            <div>
+                  <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Drop 1 <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="#">Product 1</a></li>
+                              <li><a href="#">Product 2</a></li>
+                              <li><a href="#">Product 3</a></li>
+                              <li><a href="#">Product 4</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">Drop 2 <i class="fa fa-sort-desc"></i></a>
+                        <ul>
+                              <li><a href="#">Product 1</a></li>
+                              <li><a href="#">Product 2</a></li>
+                              <li><a href="#">Product 3</a></li>
+                              <li><a href="#">Product 4</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="header-content">
+            <select id="cars">
+                <option value="Order By">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="vw">VW</option>
+                <option value="audi" selected>Order By</option>
+            </select>
+            <select id="brand">
+                <option value="brand">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="vw">VW</option>
+                <option value="Brand" selected>Brand</option>
+            </select>
+            <input type="text" placeholder="Price From" name="priceFrom" class="price-from">
+            <input type="text" placeholder="Price To" name="priceTo" class="price-to">
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+        <div class="body-content">
+            <div class="element-content">
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic1.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic4.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic5.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic6.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic8.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic7.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic5.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic3.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic4.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic8.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic7.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic3.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic2.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic6.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="single.html">
+                    <div class="inner_content clearfix">
+                    <div class="product_image">
+                        <button class="button-percent">50%</button>
+                        <img src="images/pic1.jpg" alt=""/>
+                    </div>
+                    <div class="price">
+                       <div >
+                            <p class="title">Lorem Ipsum simply</p>
+                            <div class="price1">
+                              <span class="actual">$12.00</span>
+                            </div>
+                            <div class="price2">
+                                <span class="actual2">$36.00</span>
+                            </div>
+                        </div>
+                        <div class="cart-right"> </div>
+                        <div >
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            <span><button class="button-buy">Buy</button></span>
+                        </div>
+                     </div>
+                     		
+                   </div>
+                   </a>
+                </div>
+            </div>
+            <div class="element-content">
+                
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+    </div>
+    <div class="footer">
+        <div class="contact-email">
+            <h3>Company</h3>
+            <p class="company">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo assumenda voluptatibus est 
+                quia saepe enim suscipit eaque, incidunt dolores. Quis nesciunt modi reprehenderit natus tempora .</p>
+        </div>
+        <div class="footer-link">
+            <h3>Contact</h3>
+            <!-- Add font awesome icons -->
+            <a href="#" >Phone:+841 9640017 907</a>
+            <a href="#" >Email: uyennhinguyentruong@gmail.com</a>
+            <a href="#" >Adress: 28 Lý Thường Kiệt, Thừa Thiên Huế</a>
+        </div>
+        <div class="contact-link">
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        </div>
+        
+    </div>
+    <script src="scripts/productlist.js"></script>
+</body>
+</html>
